@@ -4,151 +4,194 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <!-- Logo-->
-        <!-- Menu-->
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <!-- Logo-->
+          <ul>
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#contact-section">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Olha Shevchenko</h1>
-        <h2>WordPress-Entwickler, WordPress-Seitenadministrationerin</h2>
-        <p>
-          Ich helfe Unternehmen und Einzelpersonen dabei, eine einzigartige und
-          effektive Online-Präsenz zu erstellen, die ihre Werte widerspiegelt
-          und Kunden anzieht.
-        </p>
-        <img src="./images/foto-Olha.jpg" alt="foto  Olha Shevchenko" />
-        <p>
-          Seit 2016 habe ich mich auf WordPress, Visual Composer und Elementor
-          Visual Editors spezialisiert
-        </p>
-        <p>
-          Meine Erfahrung in der Webentwicklung seit 2011: Ich habe meine erste
-          Website auf dem Joomla
-        </p>
+      <section class="hero-section section">
+        <div class="container">
+          <h1 class="hero-title">Olha Shevchenko</h1>
+          <h2 class="sectionhero-title">
+            WordPress-Entwickler, WordPress-Seitenadministrationerin
+          </h2>
+          <p class="sectionhero-text">
+            Ich helfe Unternehmen und Einzelpersonen dabei, eine einzigartige
+            und effektive Online-Präsenz zu erstellen, die ihre Werte
+            widerspiegelt und Kunden anzieht.
+          </p>
+          <button class="button-primary" type="button">
+            Zum Portfolio gehen
+          </button>
+          <img src="./images/foto-Olha.jpg" alt="foto Olha Shevchenko" />
+          <div class="hero-infobox">
+            <p>
+              Seit 2016 habe ich mich auf WordPress, Visual Composer und
+              Elementor Visual Editors spezialisiert
+            </p>
+          </div>
+          <div class="hero-infobox">
+            <p>
+              Meine Erfahrung in der Webentwicklung seit 2011: Ich habe meine
+              erste Website auf dem Joomla
+            </p>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Warum verwende ich WordPress?</h2>
-        <p>
-          WordPress wird von 43,7 % aller Websites verwendet, was einem
-          Marktanteil des Content-Management-Systems von 62,3 % entspricht
-        </p>
-        <article>
-          <!-- Заголовки сделать невидимыми-->
-          <h3>Flexible plattform</h3>
-          <p>
-            WordPress ist eine leistungsstarke und flexible Plattform, die für
-            Websites jeder Größe und jedes Zwecks geeignet ist.
-          </p>
-        </article>
-        <article>
-          <h3>Funktionalität</h3>
-          <p>
-            Bietet zahlreiche Funktionen und Anpassungsmöglich-keiten für
-            individuelle Unternehmens-anforderungen.
-          </p>
-        </article>
-        <article>
-          <h3>Leicht scaliebar und wartbar</h3>
-          <p>
-            Leicht skalierbar und wartbar, damit die Website mit Ihrem
-            Unternehmen wachsen kann.
-          </p>
-        </article>
+      <section class="skills section">
+        <div class="container">
+          <!-- Мои скилы-->
+          <h2 class="visually-hidden">Meine Fähigkeiten</h2>
+          <p>Elementor</p>
+        </div>
       </section>
-      <section>
-        <h2>WordPress Entwicklerdienste</h2>
-        <p>Vollständiger Zyklus der Website-Erstellung:</p>
-        <ul>
-          <li>Installation</li>
-          <li>Anpassung</li>
-          <li>Inbetriebnahme</li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="infobox-title">Warum verwende ich WordPress?</h2>
+          <p>
+            WordPress wird von 43,7 % aller Websites verwendet, was einem
+            Marktanteil des Content-Management-Systems von 62,3 % entspricht
+          </p>
+          <article>
+            <h3 class="visually-hidden">Flexible plattform</h3>
+            <p>
+              WordPress ist eine leistungsstarke und flexible Plattform, die für
+              Websites jeder Größe und jedes Zwecks geeignet ist.
+            </p>
+          </article>
+          <article>
+            <h3 class="visually-hidden">Funktionalität</h3>
+            <p>
+              Bietet zahlreiche Funktionen und Anpassungsmöglich-keiten für
+              individuelle Unternehmens-anforderungen.
+            </p>
+          </article>
+          <article>
+            <h3 class="visually-hidden">Leicht scaliebar und wartbar</h3>
+            <p>
+              Leicht skalierbar und wartbar, damit die Website mit Ihrem
+              Unternehmen wachsen kann.
+            </p>
+          </article>
+        </div>
       </section>
-      <section>
-        <h2>Warum ist die Pflege einer Website wichtig?</h2>
-        <article>
-          <h3>Sicherheit der Website</h3>
-          <p>
-            Ohne regelmäßige Software- und Plugin-Updates wird eine Website
-            anfällig für Hackerangriffe. Angriffe auf Websites können zu
-            Datenlecks, zum Verlust des Vertrauens der Nutzer und sogar zu
-            Geldstrafen führen, wenn die Website sensible Informationen
-            speichert
-          </p>
-        </article>
-        <article>
-          <h3>SEO und Relevanz der Inhalte</h3>
-          <p>
-            Um eine gute Position in den Suchmaschinen zu erhalten, muss eine
-            Website über aktuelle Inhalte verfügen und modernen
-            SEO-Anforderungen genügen. Die Pflege umfasst die Aktualisierung der
-            Inhalte, die Optimierung der Seiten und die Verbesserung der
-            Struktur der Website, um ihre Position in den Suchmaschinen zu
-            erhalten
-          </p>
-        </article>
-        <article>
-          <h3>Optimierung der Leistung</h3>
-          <p>
-            Mit der Zeit kann eine Website aufgrund von Datenansammlungen,
-            Fehlern oder veralteten Skripten langsamer werden. Die
-            Website-Wartung umfasst regelmäßige Leistungsverbesserungen und die
-            Beseitigung redundanter oder veralteter Daten, damit die Website
-            schnell und stabil läuft
-          </p>
-        </article>
-        <article>
-          <h3>Kompatibilität mit dem neuen</h3>
-          <p>
-            Mit der Zeit werden neue Versionen von Browsern, mobilen Geräten und
-            Betriebssystemen verfügbar. Die Wartung der Website umfasst die
-            Überprüfung und Anpassung der Website an diese Änderungen, damit sie
-            für alle Nutzer korrekt angezeigt wird und funktioniert
-          </p>
-        </article>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">WordPress Entwicklerdienste</h2>
+          <p>Vollständiger Zyklus der Website-Erstellung:</p>
+          <ul>
+            <li>Installation</li>
+            <li>Anpassung</li>
+            <li>Inbetriebnahme</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>WordPress-Site-Administrator-Dienstleistungen</h2>
-        <p>
-          Meine Aufgabe ist es, dafür zu sorgen, dass Ihre Website reibungslos
-          und effizient läuft.
-        </p>
+      <section class="section">
+        <div class="container">
+          <h2 class="infobox-title">
+            Warum ist die Pflege einer Website wichtig?
+          </h2>
+          <article>
+            <h3 class="infobox-punkt">Sicherheit der Website</h3>
+            <p>
+              Ohne regelmäßige Software- und Plugin-Updates wird eine Website
+              anfällig für Hackerangriffe. Angriffe auf Websites können zu
+              Datenlecks, zum Verlust des Vertrauens der Nutzer und sogar zu
+              Geldstrafen führen, wenn die Website sensible Informationen
+              speichert
+            </p>
+          </article>
+          <article>
+            <h3 class="infobox-punkt">SEO und Relevanz der Inhalte</h3>
+            <p>
+              Um eine gute Position in den Suchmaschinen zu erhalten, muss eine
+              Website über aktuelle Inhalte verfügen und modernen
+              SEO-Anforderungen genügen. Die Pflege umfasst die Aktualisierung
+              der Inhalte, die Optimierung der Seiten und die Verbesserung der
+              Struktur der Website, um ihre Position in den Suchmaschinen zu
+              erhalten
+            </p>
+          </article>
+          <article>
+            <h3 class="infobox-punkt">Optimierung der Leistung</h3>
+            <p>
+              Mit der Zeit kann eine Website aufgrund von Datenansammlungen,
+              Fehlern oder veralteten Skripten langsamer werden. Die
+              Website-Wartung umfasst regelmäßige Leistungsverbesserungen und
+              die Beseitigung redundanter oder veralteter Daten, damit die
+              Website schnell und stabil läuft
+            </p>
+          </article>
+          <article>
+            <h3 class="infobox-punkt">Kompatibilität mit dem neuen</h3>
+            <p>
+              Mit der Zeit werden neue Versionen von Browsern, mobilen Geräten
+              und Betriebssystemen verfügbar. Die Wartung der Website umfasst
+              die Überprüfung und Anpassung der Website an diese Änderungen,
+              damit sie für alle Nutzer korrekt angezeigt wird und funktioniert
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">
+            WordPress-Site-Administrator-Dienstleistungen
+          </h2>
+          <p>
+            Meine Aufgabe ist es, dafür zu sorgen, dass Ihre Website reibungslos
+            und effizient läuft.
+          </p>
 
-        <ul>
-          <li>
-            Regelmäßige Aktualisierungen von WordPress, Themes und Plugins
-          </li>
-          <li>
-            Gewährleistung der Sicherheit der Website und Schutz vor
-            Hackerangriffen
-          </li>
-          <li>Leistungsüberwachung und -optimierung</li>
-          <li>Datensicherung und Wiederherstellung der Website</li>
-        </ul>
+          <ul>
+            <li>
+              Regelmäßige Aktualisierungen von WordPress, Themes und Plugins
+            </li>
+            <li>
+              Gewährleistung der Sicherheit der Website und Schutz vor
+              Hackerangriffen
+            </li>
+            <li>Leistungsüberwachung und -optimierung</li>
+            <li>Datensicherung und Wiederherstellung der Website</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Portfolio</h2>
+      <section class="section" id="portfolio-section">
+        <div class="container">
+          <h2 class="section-title">Portfolio</h2>
+        </div>
+      </section>
+      <section class="section" id="contact-section">
+        <div class="container">
+          <h2>Kontakt</h2>
+        </div>
       </section>
     </main>
     <footer>
       <a href="#"></a>
       <!-- Посилання на соцмережи-->
       <address>
-        <li><a href="tel:+4912345678">+4912345678</a></li>
-        <li><a href="mailto">mail@ppp.de</a></li>
-        <li>Adresse</li>
+        <div class="container">
+          <a href="tel:+4912345678">+4912345678</a>
+          <a class="address-link" href="mailto">mail@ppp.de</a>
+        </div>
       </address>
-      <a href="#" target="_blank">Datenschutzrichtlinie</a>
-      <p>© Olha Shevchenko</p>
+      <div class="container">
+        <a class="address-link" href="#" target="_blank"
+          >Datenschutzrichtlinie</a
+        >
+        <p class="copyright">&copy; Olha Shevchenko</p>
+      </div>
     </footer>
   </body>
 </html>

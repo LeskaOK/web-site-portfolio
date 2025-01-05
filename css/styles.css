@@ -1,0 +1,138 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Syne';
+  font-weight: 400;
+  src: url('../fonts/syne-v22-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Syne';
+  font-weight: 500;
+  src: url('../fonts/syne-v22-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Syne';
+  font-weight: 600;
+  src: url('../fonts/syne-v22-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Syne';
+  font-weight: 700;
+  src: url('../fonts/syne-v22-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-brand: #9f97ca;
+  --color-primery-dark: #444649;
+  --color-primery-light: #ffffff;
+  --color-accent: #e8ecf2;
+  --color-mint: #b2cdd1;
+  --color-beige: #e8e3de;
+}
+/* Baza*/
+body {
+  color: var(--color-primery-dark);
+  font-family: Syne, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.hero-section {
+  background-color: var(--color-brand);
+}
+
+.section {
+  padding: 48px 0;
+}
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/*Button*/
+* {
+  box-sizing: border-box;
+}
+.button-primary {
+  color: var(--color-primery-light);
+  background-color: var(--color-primery-dark);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-primary:hover {
+  color: var(--color-primery-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-primery-dark);
+}
+/*Hero section*/
+.hero-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.sectionhero-title {
+  color: var(--color-primery-light);
+}
+.sectionhero-text {
+  color: var(--color-primery-light);
+  line-height: 1.25;
+}
+.hero-infobox {
+  color: var(--color-brand);
+  text-align: center;
+}
+
+/*Section*/
+.section-title {
+  color: var(--color-primery-dark);
+}
+/*Section-skills*/
+
+.skills {
+  background-color: var(--color-accent);
+}
+/*Infobox section*/
+.infobox-title {
+  color: var(--color-primery-dark);
+  text-align: center;
+}
+
+.infobox-punkt {
+  color: var(--color-primery-light);
+}
+/*Footer*/
+.address-link {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-primery-dark);
+}
+.copyright {
+  color: var(--color-brand);
+  font-size: 14px;
+}
