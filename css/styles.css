@@ -51,6 +51,14 @@ h5,
 p {
   margin-top: 0;
 }
+addressc {
+  font-style: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 .visually-hidden {
   position: absolute;
@@ -59,9 +67,6 @@ p {
   width: 1px;
   height: 1px;
   overflow: hidden;
-}
-.hero-section {
-  background-color: var(--color-brand);
 }
 
 .section {
@@ -89,7 +94,30 @@ p {
   background-color: transparent;
   border: 2px solid var(--color-primery-dark);
 }
+/*Link*/
+.link {
+  color: var(--color-primery-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-brand);
+}
+/* Header*/
+.header-container {
+  display: flex;
+}
+.header-nav {
+  flex-grow: 1;
+}
+.header-menu {
+  display: flex;
+  gap: 64px;
+}
 /*Hero section*/
+.hero-section {
+  background-color: var(--color-brand);
+}
+
 .hero-title {
   font-size: 25px;
   font-weight: 600;
@@ -103,7 +131,11 @@ p {
 }
 .hero-infobox {
   color: var(--color-brand);
+  background-color: var(--color-accent);
   text-align: center;
+}
+.sectionhero {
+  display: flex;
 }
 
 /*Section*/
@@ -112,7 +144,7 @@ p {
 }
 /*Section-skills*/
 
-.skills {
+.skills-section {
   background-color: var(--color-accent);
 }
 /*Infobox section*/
@@ -124,6 +156,19 @@ p {
 .infobox-punkt {
   color: var(--color-primery-light);
 }
+
+.article-box {
+  display: flex;
+}
+
+/*Administrator-section*/
+.administrator-section {
+  background-color: var(--color-accent);
+}
+.admin-box {
+  display: flex;
+}
+
 /*Footer*/
 .address-link {
   color: var(--color-brand);
