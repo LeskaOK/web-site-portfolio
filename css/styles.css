@@ -52,6 +52,9 @@ h5,
 p {
   margin-top: 0;
 }
+h2 {
+  word-break: break-all;
+}
 address {
   font-style: normal;
 }
@@ -68,6 +71,9 @@ ul {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+.img-visually {
+  opacity: 0.2;
 }
 
 .section {
@@ -154,6 +160,7 @@ ul {
   border-radius: 10px;
   box-shadow: 0 0 10px var(--color-primery-dark);
 }
+
 .sectionhero {
   display: flex;
   justify-content: space-between;
@@ -165,6 +172,9 @@ ul {
   align-self: center;
   padding: 16px;
   border-radius: 10px;
+}
+.hero-foto {
+  display: flex;
 }
 
 /*Section*/
@@ -188,9 +198,21 @@ ul {
   border-bottom-right-radius: 30px;
 }
 .format-foto {
+  /*не адаптується*/
   border-radius: 10px;
   margin: 16px 16px;
-  box-shadow: 0 0 10px var(--color-primery-dark);
+  box-shadow: 0 0 8px var(--color-primery-dark);
+}
+.format-fotocolumn {
+  display: flex;
+  flex-direction: column;
+}
+.migration-format {
+  border: 2px solid var(--color-primery-dark);
+  border-radius: 10px;
+  padding: 16px;
+  width: 50%;
+  margin-bottom: 32px;
 }
 
 /*Section-skills*/
@@ -223,6 +245,16 @@ ul {
 .article-box {
   display: flex;
   gap: 30px;
+}
+
+/*Developen services section*/
+.devservices-section {
+  display: flex;
+  justify-content: space-between;
+}
+.migration-box {
+  display: flex;
+  justify-content: center;
 }
 
 /*Administrator-section*/
