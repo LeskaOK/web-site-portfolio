@@ -72,9 +72,9 @@ ul {
   height: 1px;
   overflow: hidden;
 }
-.img-visually {
+/*.img-visually {
   opacity: 0.2;
-}
+}*/
 
 .section {
   padding: 48px 0;
@@ -103,13 +103,13 @@ ul {
   border: 2px solid var(--color-primery-dark);
 }
 .container-button {
-  background-color: var(--color-primery-light);
   display: flex;
-  width: 80%;
   justify-content: center;
-  padding: 16px;
-  border-radius: 10px;
+  background-color: var(--color-primery-light);
   box-shadow: 3px 3px var(--color-primery-dark);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 0 40px;
 }
 /*Link*/
 .link {
@@ -138,6 +138,23 @@ ul {
   position: relative;
   z-index: 10;
 }
+.sectionhero {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 30px;
+}
+.sectionhero-onecolumn {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.sectionhero-toocolumn {
+  display: flex;
+  flex-basis: 50%;
+  gap: 30px;
+  padding-top: 20px;
+}
 
 .hero-title {
   font-size: 25px;
@@ -146,13 +163,23 @@ ul {
 }
 .sectionhero-title {
   color: var(--color-primery-light);
+  font-size: 25px;
+  padding-bottom: 40px;
 }
 .sectionhero-text {
   color: var(--color-primery-light);
   line-height: 1.25;
-  margin-bottom: 60px;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.onebox {
+  display: flex;
+  flex-basis: 50%;
+  align-self: center;
 }
 .hero-infobox {
+  display: flex;
+  flex-direction: column;
   color: var(--color-brand);
   background-color: var(--color-accent);
   text-align: center;
@@ -161,20 +188,16 @@ ul {
   box-shadow: 0 0 10px var(--color-primery-dark);
 }
 
-.sectionhero {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
 .conteiner-infobox {
   display: flex;
-  max-width: 332px;
   align-self: center;
-  padding: 16px;
+  padding: 16px 0;
   border-radius: 10px;
 }
-.hero-foto {
-  display: flex;
+.infobox1 {
+  background-image: url(../images/wordpress.png);
+  background-position: center;
+  opacity: 0.2;
 }
 
 /*Section*/
@@ -189,6 +212,11 @@ ul {
   width: 33%;
   padding: 24px;
 }
+.format-border {
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 0 4px var(--color-primery-dark);
+}
 .format-infosection {
   background: linear-gradient(
     var(--color-primery-light),
@@ -200,12 +228,13 @@ ul {
 .format-foto {
   /*не адаптується*/
   border-radius: 10px;
-  margin: 16px 16px;
   box-shadow: 0 0 8px var(--color-primery-dark);
+  width: 100%;
 }
 .format-fotocolumn {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 .migration-format {
   border: 2px solid var(--color-primery-dark);
