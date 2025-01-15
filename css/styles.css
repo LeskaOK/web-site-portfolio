@@ -286,12 +286,31 @@ a {
 }
 
 .infobox-punkt {
-  color: var(--color-primery-light);
+  color: var(--color-brand);
 }
 
 .article-box {
   display: flex;
   gap: 30px;
+
+  margin-bottom: 30px;
+}
+.article-box1 p {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.article-section {
+  display: flex;
+  gap: 40px 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.article-item {
+  flex-basis: calc((100% - 30px) / 2);
+  border: 1px solid var(--color-brand);
+  border-radius: 10px;
 }
 
 /*Developen services section*/
@@ -330,6 +349,7 @@ a {
   color: var(--color-primery-light);
   border-bottom-left-radius: 30px;
   border-top-left-radius: 30px;
+  /*left: 60px; poorly */
   margin-right: -60px;
   padding: 40px 40px 40px 20px;
   position: relative;
@@ -378,8 +398,7 @@ a {
 .devservices-text {
   color: var(--color-primery-light);
 }
-.devservices-darktext {
-}
+
 .li-text {
   font-size: 20px;
   font-weight: 400;
