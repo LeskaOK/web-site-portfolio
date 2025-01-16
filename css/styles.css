@@ -31,7 +31,7 @@
   --color-primery-dark: #444649;
   --color-primery-light: #ffffff;
   --color-accent: #e8ecf2;
-  --color-mint: #b2cdd1;
+  --color-mint: #ebfafc;
   --color-beige: #e8e3de;
   --color-brand-light: #9f97ca78;
 }
@@ -57,9 +57,9 @@ h5,
 p {
   margin-top: 0;
 }
-h2 {
+/*h2 {
   word-break: break-all;
-}
+}*/
 address {
   font-style: normal;
 }
@@ -283,6 +283,8 @@ a {
 .infobox-title {
   color: var(--color-primery-dark);
   text-align: center;
+  max-width: 644px;
+  margin: 0 auto 40px;
 }
 
 .infobox-punkt {
@@ -298,8 +300,26 @@ a {
 .article-box1 p {
   display: flex;
   gap: 30px;
+
   font-size: 16px;
+  line-height: 1.75;
   margin-bottom: 30px;
+}
+.picture {
+  width: 100px;
+  height: 100px;
+}
+.picture.one {
+  background-image: url(../images/security.svg);
+}
+.picture.two {
+  background-image: url(../images/SEO.svg);
+}
+.picture.three {
+  background-image: url(../images/optimization.svg);
+}
+.picture.four {
+  background-image: url(../images/kompatable.svg);
 }
 .article-section {
   display: flex;
@@ -309,8 +329,18 @@ a {
 }
 .article-item {
   flex-basis: calc((100% - 30px) / 2);
-  border: 1px solid var(--color-brand);
+  border: 1px solid var(--color-brand-light);
+  background-color: var(--color-primery-light);
+
   border-radius: 10px;
+  padding: 20px;
+}
+.grad-infobox {
+  background: linear-gradient(
+    var(--color-primery-light) 10%,
+    var(--color-mint) 70%,
+    var(--color-accent) 100%
+  );
 }
 
 /*Developen services section*/
@@ -412,6 +442,7 @@ a {
 }
 .admin-box {
   display: flex;
+  gap: 160px;
 }
 
 /*Footer*/
