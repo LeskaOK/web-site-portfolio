@@ -1,0 +1,46 @@
+.care-section {
+  background: linear-gradient(
+    var(--color-primery-light) 0%,
+    var(--color-accent) 85%,
+    var(--color-primery-light) 100%
+  );
+
+  &__list {
+    display: flex;
+    gap: 40px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  &__item {
+    flex-basis: calc((100% - 30px) / 2);
+    background-color: var(--color-primery-light);
+    border-radius: 40px;
+    padding: 20px 40px;
+    margin: 0 auto 0;
+  }
+  &__article-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+}
+.picture.one {
+  background-image: url(../images/security.svg);
+}
+.picture.two {
+  background-image: url(../images/SEO.svg);
+}
+.picture.three {
+  background-image: url(../images/optimization.svg);
+}
+.picture.four {
+  background-image: url(../images/kompatable.svg);
+}
+.infobox-punkt {
+  color: var(--color-brand);
+}

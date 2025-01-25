@@ -7,9 +7,10 @@
   padding-bottom: 18px;
   position: relative;
   z-index: 1;
-}
-.skills-icon {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
 }

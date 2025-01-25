@@ -1,0 +1,16 @@
+.wp-section {
+  background: linear-gradient(
+    var(--color-primery-light),
+    var(--color-brand-light)
+  );
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  &__format-infobox {
+    background-color: var(--color-primery-light);
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--color-brand);
+    width: 33%;
+    padding: 24px;
+  }
+}

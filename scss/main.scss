@@ -3,19 +3,23 @@
 
 @import './base';
 
+@import './utils/articles';
 @import './utils/utils';
+@import './utils/titels';
 
 @import './components/arrow';
 @import './components/buttons';
 @import './components/links';
 
 @import './layout/administrator-section';
+@import './layout/care-section';
 @import './layout/container';
 @import './layout/devservices-section';
 @import './layout/footer';
 @import './layout/formats-section';
 @import './layout/header';
 @import './layout/hero-section';
-@import './layout/infobox-section';
+
 @import './layout/sections';
 @import './layout/skills-section';
+@import './layout/wp-section';

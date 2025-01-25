@@ -4,68 +4,79 @@
   border-bottom-right-radius: 30px;
   position: relative;
   z-index: 10;
-}
-.sectionhero {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-.sectionhero-onecolumn {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-}
-.sectionhero-toocolumn {
-  display: flex;
-  flex-basis: 50%;
-  gap: 30px;
-  padding-top: 20px;
-}
 
-.hero-title {
-  font-size: 25px;
-  font-weight: 600;
-  padding-top: 30px;
-}
-.sectionhero-title {
-  color: var(--color-primery-light);
-  font-size: 25px;
-  padding-bottom: 40px;
-}
-.sectionhero-text {
-  color: var(--color-primery-light);
-  line-height: 1.25;
-  padding: 20px 0;
-  margin-bottom: 50px;
-}
-.onebox {
-  display: flex;
-  flex-basis: 50%;
-  align-self: center;
-}
-.hero-infobox {
-  display: flex;
-  color: var(--color-brand);
-  background-color: var(--color-primery-light);
-  text-align: center;
-  padding: 16px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px var(--color-primery-dark);
-}
+  &__columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
 
-.conteiner-infobox {
-  display: flex;
-  align-self: center;
-  padding: 16px 0;
-  border-radius: 10px;
-}
-.infobox1 {
-  background-image: url(../images/wordpress.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.infobox2 {
-  background-image: url(../images/joomla.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  &__onecolumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+  &__title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+  }
+  &__rubric {
+    color: var(--color-primery-light);
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  &__text {
+    color: var(--color-primery-light);
+    line-height: 1.25;
+    padding: 20px 0;
+    margin-bottom: 50px;
+  }
+
+  &__twocolumn {
+    display: flex;
+    flex-basis: 50%;
+    gap: 30px;
+    padding-top: 20px;
+  }
+  &__fotocolumn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  &__foto {
+    border-radius: 10px;
+    box-shadow: 0 0 8px var(--color-primery-dark);
+    width: 100%;
+  }
+  &__onebox {
+    display: flex;
+    flex-basis: 50%;
+    align-self: center;
+  }
+  &__formatinfobox {
+    display: flex;
+    color: var(--color-brand);
+    background-color: var(--color-primery-light);
+    text-align: center;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--color-primery-dark);
+  }
+  &__infobox1 {
+    background-image: url(../images/wordpress.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__infobox2 {
+    background-image: url(../images/joomla.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__conteiner-infobox {
+    display: flex;
+    align-self: center;
+    padding: 16px 0;
+    border-radius: 10px;
+  }
 }
