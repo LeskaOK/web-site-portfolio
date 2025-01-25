@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+}
+.header-nav {
+  flex-grow: 1;
+}
+.header-menu {
+  display: flex;
+  gap: 64px;
+}

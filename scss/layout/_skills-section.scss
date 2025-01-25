@@ -1,0 +1,15 @@
+.skills-section {
+  background-color: var(--color-accent);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: -30px;
+  padding-top: 48px;
+  padding-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+.skills-icon {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

@@ -1,0 +1,28 @@
+.administrator-section {
+  background-color: var(--color-accent);
+}
+.admin-section {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+.adminmain-box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.admin-list {
+  display: flex;
+  border: 2px solid var(--color-brand-light);
+  border-radius: 10px;
+  padding: 10px 20px 20px 30px;
+}
+.admin-arrow {
+  display: flex;
+}
+.admin-ul {
+  list-style-type: circle;
+}
+.admin-ul li {
+  line-height: 1.6;
+}

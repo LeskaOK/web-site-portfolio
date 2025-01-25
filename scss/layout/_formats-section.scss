@@ -1,0 +1,41 @@
+.format-infobox {
+  background-color: var(--color-primery-light);
+  border-radius: 10px;
+  box-shadow: 3px 3px var(--color-brand);
+  width: 33%;
+  padding: 24px;
+}
+.format-border {
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 0 4px var(--color-primery-dark);
+}
+.format-infosection {
+  background: linear-gradient(
+    var(--color-primery-light),
+    var(--color-brand-light)
+  );
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.format-foto {
+  border-radius: 10px;
+  box-shadow: 0 0 8px var(--color-primery-dark);
+  width: 100%;
+}
+.format-fotocolumn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.format-migration {
+  border: 2px solid var(--color-primery-dark);
+  border-radius: 10px;
+  padding: 16px;
+  width: 50%;
+  margin-bottom: 32px;
+}
+.format-ulpoint {
+  list-style-type: circle;
+  padding-left: 40px;
+}
