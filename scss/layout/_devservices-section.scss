@@ -51,7 +51,7 @@
 }
 .psevdo-box {
   display: flex;
-  background-color: var(--color-brand);
+  background-color: var(--color-accent-peach);
   border-width: 0;
   border-radius: 10px;
   justify-content: space-between;
@@ -63,26 +63,13 @@
 }
 .devservices-infobox {
   display: flex;
-
-  flex-direction: column;
   flex-basis: 50%;
-  color: var(--color-brand);
-  font-size: 16px;
-  text-align: center;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 8px var(--color-primery-dark);
-  background: linear-gradient(
-    180deg,
-    var(--color-brand) 30%,
-    var(--color-primery-light) 33%
-  );
 }
-.devservices-box {
+/*.devservices-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+}*/
 .devservices-text {
   color: var(--color-primery-light);
 }

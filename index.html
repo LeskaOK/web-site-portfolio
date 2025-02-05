@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <!-- Logo-->
-          <ul class="header-menu">
-            <li><a class="link" href="#portfolio-section">Portfolio</a></li>
-            <li><a class="link" href="#contact-section">Kontakt</a></li>
-          </ul>
-        </nav>
+        <div class="header__container">
+          <nav class="header__nav">
+            <div>
+              <p class="header__title">Olha Shevchenko</p>
+            </div>
+            <ul class="header__menu">
+              <li><a class="link" href="#portfolio-section">Portfolio</a></li>
+              <li><a class="link" href="#contact-section">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -23,16 +27,29 @@
         <div class="container">
           <div class="hero-section__columns">
             <div class="hero-section__onecolumn">
-              <h1 class="hero-section__title">Olha Shevchenko</h1>
-              <h2 class="hero-section__rubric">
+              <h1 class="hero-section__rubric">
                 WordPress-Entwicklerin <br />
-                und <br />Seitenadministratorin
-              </h2>
+                und Seitenadministratorin
+              </h1>
               <p class="hero-section__text">
                 Ich helfe Unternehmen und Einzelpersonen dabei, eine
                 einzigartige und effektive Online-Präsenz zu erstellen, die ihre
                 Werte widerspiegelt und Kunden anzieht.
               </p>
+              <h2 class="hero-section__h2">
+                Meine Erfahrung in der Webentwicklung
+              </h2>
+              <ul class="format-ulpoint hero-section__text">
+                <li>
+                  <strong>seit 2011 </strong>- meine erste Website auf dem
+                  Joomla,
+                </li>
+                <li>
+                  <strong>seit 2016</strong> - auf WordPress spezialisiert. Dank
+                  9-jährigen Erfahrung mit WordPress weiß ich, wie man die
+                  gewünschten Funktionen schnell und richtig implementiert.
+                </li>
+              </ul>
               <div class="container-button">
                 <button class="button-primary" type="button">
                   Zum Portfolio gehen
@@ -41,7 +58,7 @@
             </div>
 
             <div class="hero-section__twocolumn">
-              <div class="hero-section__onebox">
+              <!--  <div class="hero-section__onebox">
                 <div class="hero-section__formatinfobox hero-section__infobox1">
                   <p>
                     <strong>Seit 2016</strong> habe ich mich auf WordPress
@@ -50,14 +67,14 @@
                     Funktionen richtig implementiere.
                   </p>
                 </div>
-              </div>
+              </div>-->
               <div class="hero-section__fotocolumn">
                 <img
                   class="hero-section__foto"
-                  src="./images/foto-Olha.jpg"
+                  src="./images/olha-shevchenko.jpeg"
                   alt="foto Olha Shevchenko"
                 />
-                <div class="hero-section__conteiner-infobox">
+                <!--  <div class="hero-section__conteiner-infobox">
                   <div
                     class="hero-section__formatinfobox hero-section__infobox2"
                   >
@@ -67,7 +84,7 @@
                       auf dem Joomla.
                     </p>
                   </div>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -201,7 +218,7 @@
                   </ul>
                 </div>
                 <div class="devservices-infobox">
-                  <div class="devservices-box">
+                  <!--<div class="devservices-box">
                     <p class="devservices-text">
                       Welche Websites werden am häufigsten bestellt?
                     </p>
@@ -210,7 +227,12 @@
                       (E-Commerce) Landingpages für Produkte und
                       Dienstleistungen
                     </p>
-                  </div>
+                  </div>-->
+                  <img
+                    class="hero-section__foto"
+                    src="./images/infografika.jpg"
+                    alt="infografika"
+                  />
                 </div>
               </div>
             </div>

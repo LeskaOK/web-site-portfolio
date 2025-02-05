@@ -8,48 +8,50 @@
   &__columns {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  &__h2 {
+    color: var(--color-primery-light);
+    font-size: 25px;
   }
 
   &__onecolumn {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+
+    flex-basis: 70%;
   }
-  &__title {
-    font-size: 25px;
-    font-weight: 600;
-    padding-top: 30px;
-  }
+
   &__rubric {
     color: var(--color-primery-light);
-    font-size: 25px;
-    padding-bottom: 40px;
+    font-size: 30px;
   }
   &__text {
     color: var(--color-primery-light);
-    line-height: 1.25;
-    padding: 20px 0;
-    margin-bottom: 50px;
+    line-height: 1.5;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    list-style-position: inside;
   }
 
   &__twocolumn {
     display: flex;
-    flex-basis: 50%;
-    gap: 30px;
+    flex-basis: 60%;
+    justify-content: center;
     padding-top: 20px;
   }
   &__fotocolumn {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
   }
   &__foto {
     border-radius: 10px;
     box-shadow: 0 0 8px var(--color-primery-dark);
     width: 100%;
   }
-  &__onebox {
+  /* &__onebox {
     display: flex;
     flex-basis: 50%;
     align-self: center;
@@ -78,5 +80,5 @@
     align-self: center;
     padding: 16px 0;
     border-radius: 10px;
-  }
+  }*/
 }
