@@ -1,21 +1,24 @@
 .button-primary {
   color: var(--color-primery-light);
-  background-color: var(--color-primery-dark);
+  background-color: var(--color-accent-peach);
   border-radius: 10px;
-  padding: 8px;
+  border-color: var(--color-accent-peach);
+  padding: 24px;
+  font-size: 20px;
   cursor: pointer;
 }
 .button-primary:hover {
   color: var(--color-primery-dark);
-  background-color: transparent;
-  border: 2px solid var(--color-primery-dark);
+  background-color: var(--color-primery-light);
+  border-color: var(--color-primery-light);
 }
 .container-button {
   display: flex;
-  justify-content: center;
-  background-color: var(--color-primery-light);
+  justify-content: start;
+  padding: 0 0 75px 0;
+  /*background-color: var(--color-primery-light);
   box-shadow: 3px 3px var(--color-primery-dark);
   border-radius: 10px;
-  padding: 16px;
-  max-width: 400px;
+  
+  max-width: 400px;*/
 }
