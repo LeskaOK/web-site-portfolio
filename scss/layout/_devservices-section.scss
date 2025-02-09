@@ -25,6 +25,29 @@
     width: 50%;
     margin-bottom: 32px;
   }
+  &__zyrkus {
+    display: flex;
+    flex-direction: column;
+  }
+  &__p {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  &__chema {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__paragraph {
+    text-align: left;
+    border-top: 2px dashed var(--color-primery-dark);
+    border-width: 3px;
+    width: calc(100% / 6);
+  }
+  &__num {
+    margin-top: -30px;
+    margin-left: -10px;
+  }
 }
 /*.devservices-main {
   display: flex;

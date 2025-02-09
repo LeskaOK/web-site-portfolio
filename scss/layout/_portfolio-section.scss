@@ -1,0 +1,50 @@
+.portfolio-section {
+  background-color: var(--color-brand);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  z-index: 15;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-primery-light);
+    text-align: center;
+  }
+  &__header p {
+    font-size: 20px;
+    display: block;
+    width: 40%;
+    margin: 0 auto 0;
+    padding-bottom: 20px;
+  }
+  &__header h2 {
+    font-size: 25px;
+  }
+  /*копія класів*/
+  &__list {
+    display: flex;
+    gap: 40px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  &__item {
+    flex-basis: calc((100% - 30px) / 2);
+    background-color: var(--color-primery-light);
+    border-radius: 40px;
+    padding: 20px 40px;
+    margin: 0 auto 0;
+  }
+  &__article-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  &__title-box h3 {
+    font-size: 20px;
+    display: block;
+    width: 80%;
+    margin: 0 auto 0;
+    text-align: center;
+  }
+}
