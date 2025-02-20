@@ -1,29 +1,42 @@
 .administrator-section {
   background-color: var(--color-accent);
   margin-bottom: -30px;
-}
-.admin-section {
-  display: flex;
-  gap: 40px;
-  padding: 50px;
-}
-.adminmain-box {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-}
-.admin-list {
-  display: flex;
-  border: 2px solid var(--color-brand-light);
-  border-radius: 10px;
-  padding: 10px 20px 20px 30px;
-}
-.admin-arrow {
-  display: flex;
-}
-.admin-ul {
-  list-style-type: circle;
-}
-.admin-ul li {
-  line-height: 1.6;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  &__admin-section {
+    display: flex;
+    gap: 40px;
+    padding: 40px 20px 75px 20px;
+  }
+
+  &__adminmain-box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+  &__arrow {
+    transform: scaleX(1.7) translate(-20px, 30px);
+  }
+
+  &__list {
+    display: flex;
+    border: 2px solid var(--color-brand-light);
+    border-radius: 20px;
+    background: linear-gradient(
+      89deg,
+      var(--color-primery-light) 0%,
+      var(--color-accent) 89%
+    );
+    padding: 20px;
+    list-style-position: inside;
+  }
+
+  &__ul {
+    list-style-type: disc;
+
+    &--li {
+      line-height: 1.8;
+    }
+  }
 }

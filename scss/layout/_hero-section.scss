@@ -19,7 +19,6 @@
   &__onecolumn {
     display: flex;
     flex-direction: column;
-
     flex-basis: 70%;
   }
 
@@ -30,7 +29,6 @@
   &__text {
     color: var(--color-primery-light);
     line-height: 1.5;
-
     margin-bottom: 30px;
     list-style-position: inside;
   }
@@ -45,6 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin-bottom: 50px;
   }
   &__foto {
     border-radius: 10px;
