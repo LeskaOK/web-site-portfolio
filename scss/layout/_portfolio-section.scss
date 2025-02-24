@@ -43,8 +43,67 @@
   &__title-box h3 {
     font-size: 20px;
     display: block;
-    width: 80%;
-    margin: 0 auto 0;
+    flex-basis: 50%;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+  &__foto {
+    display: flex;
+    border-color: 2px solid var(--color-gray-transporant);
+    box-shadow: 0 0 10px var(--color-gray-transporant);
+    width: 40%;
+  }
+  &__site {
+    display: flex;
+    gap: 30px;
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: space-between;
+  }
+
+  &__description p {
+    font-size: 20px;
+  }
+  &__button {
+    display: flex;
+  }
+  &__primary {
+    color: var(--color-primery-light);
+    background-color: var(--color-primery-dark);
+    border-radius: 20px;
+    border: 5px solid var(--color-primery-dark);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  &__primary:hover {
+    color: var(--color-primery-dark);
+    background-color: var(--color-accent-peach);
+    border: 5px solid var(--color-accent-peach);
+    box-shadow: none;
+  }
+  &__migration {
+    display: flex;
+    flex-basis: 40%;
+  }
+  &__migration p {
+    text-align: left;
+  }
+  &__grunt {
+    display: flex;
+    flex-direction: column;
+  }
+  &__grunt p {
+    margin: 0px;
+  }
+  &__video {
+    display: flex;
+    flex-basis: 60%;
+  }
+  &__video p {
     text-align: center;
   }
 }
