@@ -10,13 +10,13 @@
     flex-direction: column;
     color: var(--color-primery-light);
     text-align: center;
+    padding-bottom: 30px;
   }
   &__header p {
-    font-size: 20px;
     display: block;
+    font-size: 20px;
     width: 40%;
     margin: 0 auto 0;
-    padding-bottom: 20px;
   }
   &__header h2 {
     font-size: 25px;
@@ -26,7 +26,7 @@
     display: flex;
     gap: 40px 30px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   &__item {
     flex-basis: calc((100% - 30px) / 2);
@@ -43,7 +43,6 @@
   &__title-box h3 {
     font-size: 20px;
     display: block;
-    flex-basis: 50%;
     margin: 0 auto 10px;
     text-align: center;
   }
@@ -87,23 +86,42 @@
   }
   &__migration {
     display: flex;
-    flex-basis: 40%;
-  }
-  &__migration p {
-    text-align: left;
+    gap: 30px;
+    color: var(--color-primery-light);
+    padding-bottom: 50px;
   }
   &__grunt {
     display: flex;
     flex-direction: column;
+    flex-basis: 35%;
   }
-  &__grunt p {
-    margin: 0px;
-  }
+
   &__video {
     display: flex;
     flex-basis: 60%;
+    gap: 30px;
   }
   &__video p {
     text-align: center;
+  }
+  &__video-color {
+    background-color: var(--color-gray);
+    color: var(--color-primery-dark);
+    border-radius: 40px;
+    padding: 20px;
+  }
+  &__hobbys {
+    display: flex;
+    gap: 50px;
+
+    justify-content: center;
+  }
+  &__hobbys p {
+    color: var(--color-primery-light);
+    text-align: center;
+  }
+  &__collage {
+    border-radius: 20px;
+    border: 2px solid var(--color-primery-light);
   }
 }
