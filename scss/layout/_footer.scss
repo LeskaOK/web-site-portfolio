@@ -1,11 +1,48 @@
-.address-link {
-  color: var(--color-brand);
-  text-decoration: none;
-}
-.address-link:hover {
-  color: var(--color-primery-dark);
-}
-.copyright {
-  color: var(--color-brand);
-  font-size: 14px;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  &__text {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__address {
+    font-style: normal;
+  }
+
+  &__contact {
+    display: flex;
+    align-items: baseline; // Вирівнює по нижньому краю всіх елементів
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  &__contact p {
+    margin: 0;
+    display: flex;
+    align-items: baseline; // Додаткове вирівнювання для значка 📞
+  }
+
+  &__phone {
+    text-decoration: none;
+    color: var(--color-primery-dark);
+    font-size: 1rem;
+  }
+
+  &__address-link {
+    display: block;
+    color: var(--color-primery-dark);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-accent-peach);
+    }
+  }
 }

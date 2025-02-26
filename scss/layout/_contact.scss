@@ -1,0 +1,14 @@
+.section-contact {
+  display: flex;
+  background-color: var(--color-primery-light);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  z-index: 20;
+  &__infobox {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+}

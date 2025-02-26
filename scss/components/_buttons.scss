@@ -3,7 +3,7 @@
   background-color: var(--color-accent-peach);
   border-radius: 10px;
   border-color: var(--color-accent-peach);
-  padding: 24px;
+  padding: 16px;
   font-size: 20px;
   cursor: pointer;
 }
@@ -16,9 +16,9 @@
   display: flex;
   justify-content: start;
   padding: 0 0 75px 0;
-  /*background-color: var(--color-primery-light);
-  box-shadow: 3px 3px var(--color-primery-dark);
-  border-radius: 10px;
-  
-  max-width: 400px;*/
+}
+.centr {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
 }

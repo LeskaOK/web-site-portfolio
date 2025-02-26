@@ -2,7 +2,10 @@
   color: var(--color-primery-dark);
   text-decoration: none;
   font-size: 20px;
+  &--small {
+    font-size: 14px;
+  }
 }
 .link:hover {
-  color: var(--color-brand);
+  color: var(--color-accent-peach);
 }

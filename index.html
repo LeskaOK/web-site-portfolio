@@ -51,9 +51,11 @@
                 </li>
               </ul>
               <div class="container-button">
-                <button class="button-primary" type="button">
-                  Zum Portfolio gehen
-                </button>
+                <a href="#portfolio-section">
+                  <button class="button-primary" type="button" role="link">
+                    Zum Portfolio gehen
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -163,9 +165,15 @@
                   <p>Migration von Websites von Joomla zu WordPress</p>
                 </div>
                 <div class="devservices-section__box">
-                  <button class="devservices-section__mehr" type="button">
-                    Mehr lesen
-                  </button>
+                  <a href="#migration">
+                    <button
+                      class="devservices-section__mehr"
+                      type="button"
+                      role="link"
+                    >
+                      Mehr lesen
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -468,7 +476,7 @@
           </div>
           <!--Кінець секції з відео-->
           <div class="portfolio-section__header">
-            <h2>
+            <h2 id="migration">
               Migration von Websites vasilisa.com.ua von Joomla zu WordPress
             </h2>
           </div>
@@ -491,8 +499,8 @@
               <div class="portfolio-section__video-color">
                 <p>So sah die Website bei WordPress aus</p>
                 <iframe
-                  width="400"
-                  height="243"
+                  width="350"
+                  height="223"
                   src="https://www.youtube.com/embed/RqCFtDSbsaQ"
                   title="Archive vasilisa.com.ua 2016"
                   frameborder="0"
@@ -504,8 +512,8 @@
               <div class="portfolio-section__video-color">
                 <p>2011 sah die Website auf Joomla</p>
                 <iframe
-                  width="400"
-                  height="243"
+                  width="350"
+                  height="223"
                   src="https://www.youtube.com/embed/i4MZ-KiXA1c"
                   title="Archive vasilisa.com.ua 2011"
                   frameborder="0"
@@ -552,28 +560,38 @@
           </div>
         </div>
       </section>
-      <!--     -->
-      <section class="section" id="contact-section">
-        <div class="container">
-          <h2>Kontakt</h2>
+      <section class="section-contact" id="contact-section">
+        <div class="section-contact__infobox">
+          <div><p class="copyright">&copy; Olha Shevchenko</p></div>
+          <div>
+            <a class="link link--small" href="./dateschutz.html"
+              >Datenschutzrichtlinie</a
+            >
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <a href="#"></a>
+    <footer class="footer">
+      <div class="footer__text">
+        <h2 class="footer__title">Kontakt</h2>
+        <address class="footer__address">
+          <div class="footer__contact">
+            <p>📞WhatsApp:</p>
+            <a
+              class="footer__phone footer__address-link"
+              target="_blank"
+              href="https://api.whatsapp.com/send? phone=5117547725"
+              >+49015117547725</a
+            >
+          </div>
+          <div class="footer__contact">
+            <p>📧Email:</p>
 
-      <!-- Посилання на соцмережи-->
-      <address>
-        <div class="container">
-          <a href="tel:+4912345678">+4912345678</a>
-          <a class="address-link" href="mailto">mail@ppp.de</a>
-        </div>
-      </address>
-      <div class="container">
-        <a class="address-link" href="#" target="_blank"
-          >Datenschutzrichtlinie</a
-        >
-        <p class="copyright">&copy; Olha Shevchenko</p>
+            <a class="footer__address-link" href="mailto:olha.shevchenko@gmx.de"
+              >olha.shevchenko@gmx.de</a
+            >
+          </div>
+        </address>
       </div>
     </footer>
   </body>
