@@ -13,6 +13,9 @@
   &__topsection {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+    }
   }
   &__box {
     display: flex;
@@ -24,6 +27,10 @@
     padding: 16px;
     width: 40%;
     margin-bottom: 32px;
+    @media screen and (max-width: $bp-mobile) {
+      width: 100%;
+      padding: 0;
+    }
   }
   &__mehr {
     /*
@@ -58,12 +65,20 @@
   &__chema {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: $bp-mobile) {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
   }
   &__paragraph {
     text-align: left;
     border-top: 2px dashed var(--color-primery-dark);
     border-width: 3px;
     width: calc(100% / 6);
+    @media screen and (max-width: $bp-mobile) {
+      width: 100%;
+    }
   }
   &__num {
     margin-top: -30px;

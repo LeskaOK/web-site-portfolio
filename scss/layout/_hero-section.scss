@@ -10,6 +10,10 @@
     justify-content: space-between;
     gap: 50px;
     padding-top: 50px;
+    @media screen and (max-width: $bp-mobile) {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   &__h2 {
     color: var(--color-primery-light);
@@ -24,7 +28,6 @@
 
   &__rubric {
     color: var(--color-primery-light);
-    font-size: 30px;
   }
   &__text {
     color: var(--color-primery-light);

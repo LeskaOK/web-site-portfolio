@@ -4,15 +4,14 @@
     var(--color-primery-light) 27%,
     var(--color-peach-light) 54%
   );
-
-  /*border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;*/
-
   &__format-infobox {
     background-color: var(--color-primery-light);
     border-radius: 20px;
     box-shadow: 3px 3px var(--color-accent-peach);
     width: 33%;
     padding: 24px;
+    @media screen and (max-width: $bp-mobile) {
+      width: 100%;
+    }
   }
 }

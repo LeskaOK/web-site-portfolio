@@ -3,4 +3,11 @@
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 96px;
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 0 32px;
+  }
+  @media screen and (max-width: $bp-mobile) {
+    padding: 0 16px;
+  }
 }

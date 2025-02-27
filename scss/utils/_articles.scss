@@ -2,4 +2,8 @@
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
+  @media screen and (max-width: $bp-mobile) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

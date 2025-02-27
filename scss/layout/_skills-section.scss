@@ -12,5 +12,10 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    @media screen and (max-width: $bp-tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 }
