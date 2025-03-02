@@ -10,27 +10,37 @@
     gap: 40px 30px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+      gap: 10px;
+    }
   }
   &__item {
+    display: flex;
     flex-basis: calc((100% - 30px) / 2);
     background-color: var(--color-primery-light);
     border-radius: 40px;
     box-shadow: 0 0 5px var(--color-gray-transporant);
     padding: 30px 30px 20px 10px;
     margin: 0 auto 0;
+    @media screen and (max-width: $bp-mobile) {
+      flex-basis: 100%;
+    }
   }
   &__article-box {
     display: flex;
-
     margin-bottom: 30px;
+    @media screen and (max-width: $bp-mobile) {
+      margin-bottom: 0px;
+    }
   }
   &__text {
     padding-top: 20px;
   }
+
   &__picture {
     display: flex;
     flex-basis: 80%;
-
     background-repeat: no-repeat;
 
     &[data-type='one'] {

@@ -8,6 +8,9 @@
     display: flex;
     gap: 40px;
     padding: 40px 20px 75px 20px;
+    @media screen and (max-width: $bp-mobile) {
+      flex-wrap: wrap;
+    }
   }
 
   &__adminmain-box {
@@ -17,6 +20,9 @@
   }
   &__arrow {
     transform: scaleX(1.7) translate(-20px, 30px);
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
   }
 
   &__list {

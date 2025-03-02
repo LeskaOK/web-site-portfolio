@@ -12,12 +12,18 @@
     color: var(--color-primery-light);
     text-align: center;
     padding-bottom: 30px;
+    @media screen and (max-width: $bp-mobile) {
+      padding-bottom: 10px;
+    }
   }
   &__header p {
     display: block;
     font-size: 20px;
     width: 40%;
     margin: 0 auto 0;
+    @media screen and (max-width: $bp-mobile) {
+      width: 100%;
+    }
   }
   &__header h2 {
     font-size: 25px;
@@ -28,6 +34,10 @@
     gap: 40px 30px;
     flex-wrap: wrap;
     margin-bottom: 75px;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
   }
   &__item {
     flex-basis: calc((100% - 30px) / 2);
@@ -35,6 +45,10 @@
     border-radius: 40px;
     padding: 20px 40px;
     margin: 0 auto 0;
+    @media screen and (max-width: $bp-mobile) {
+      flex-basis: 100%;
+      padding: 10px 10px;
+    }
   }
   &__article-box {
     display: flex;
@@ -46,22 +60,35 @@
     display: block;
     margin: 0 auto 10px;
     text-align: center;
+    @media screen and (max-width: $bp-mobile) {
+      font-size: 18px;
+    }
   }
   &__foto {
     display: flex;
     border-color: 2px solid var(--color-gray-transporant);
     box-shadow: 0 0 10px var(--color-gray-transporant);
     width: 40%;
+    @media screen and (max-width: $bp-mobile) {
+      width: 80%;
+      margin: 0 auto 0;
+    }
   }
   &__site {
     display: flex;
     gap: 30px;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+    }
   }
   &__description {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
     justify-content: space-between;
+    @media screen and (max-width: $bp-mobile) {
+      padding-left: 20px;
+    }
   }
 
   &__description p {
@@ -90,11 +117,19 @@
     gap: 10px;
     color: var(--color-primery-light);
     padding-bottom: 10px;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
   }
-  &__grunt {
+  &__grunt h3 {
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
+    @media screen and (max-width: $bp-mobile) {
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+    }
   }
 
   &__video {
@@ -102,6 +137,9 @@
     flex-basis: 55%;
     gap: 20px;
     align-items: flex-start;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+    }
   }
 
   &__video-color {
@@ -113,10 +151,16 @@
     padding: 20px;
     align-items: center;
   }
+
   &__hobbys {
     display: flex;
     gap: 50px;
     justify-content: center;
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
   }
   &__hobbys p {
     color: var(--color-primery-light);

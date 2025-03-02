@@ -1,5 +1,8 @@
 .section {
   padding: 48px 0;
+  @media screen and (max-width: $bp-mobile) {
+    padding: 16px 0;
+  }
 }
 .section-title {
   color: var(--color-primery-dark);
