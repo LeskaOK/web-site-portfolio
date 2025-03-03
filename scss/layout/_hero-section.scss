@@ -44,24 +44,16 @@
     @media screen and (max-width: $bp-mobile) {
       padding-top: 0;
     }
-
-    /*  justify-content: center;
-   
-    flex-basis: 100%;*/
   }
   &__fotocolumn {
     display: flex;
-
-    /* flex-direction: column;
-    width: 100%;
-    margin-bottom: 50px;*/
   }
   &__foto {
     border-radius: 10px;
     box-shadow: 0 0 8px var(--color-primery-dark);
     width: 100%;
     @media screen and (max-width: $bp-mobile) {
-      padding-bottom: 20px;
+      margin-bottom: 20px;
     }
   }
 }

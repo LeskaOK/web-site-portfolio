@@ -30,5 +30,8 @@
   &__menu {
     display: flex;
     gap: 64px;
+    @media screen and (max-width: $bp-mobile) {
+      display: none;
+    }
   }
 }

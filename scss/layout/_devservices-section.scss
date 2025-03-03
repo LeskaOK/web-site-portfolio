@@ -72,13 +72,31 @@
     border-width: 3px;
     width: calc(100% / 6);
     @media screen and (max-width: $bp-mobile) {
+      display: flex;
+      align-items: center; /* Вирівнює по вертикалі */
+      gap: 10px; /* Додає відступ між числом і текстом */
       width: 100%;
       margin-bottom: 20px;
+      border-top: none;
+      border-width: 0;
+      p {
+        margin: 0; /* Видаляємо зайві відступи */
+        line-height: 1; /* Фіксуємо висоту тексту */
+        display: flex;
+        align-items: center;
+      }
     }
   }
+
   &__num {
     margin-top: -30px;
     margin-left: -10px;
+    @media screen and (max-width: $bp-mobile) {
+      margin-top: 0;
+      margin-left: 0;
+      width: 35px; /* Щоб розмір був однаковий */
+      height: 35px;
+    }
   }
 }
 /*.devservices-main {
