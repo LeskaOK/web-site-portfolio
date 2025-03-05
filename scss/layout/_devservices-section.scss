@@ -39,6 +39,9 @@
     font-size: 16px;
     font-family: Syne, sans-serif;
     cursor: pointer;
+    @media screen and (max-width: $bp-mobile) {
+      color: var(--color-primery-dark);
+    }
   }
   &__mehr:hover {
     border-bottom: transparent;
@@ -48,7 +51,7 @@
     display: flex;
     flex-direction: column;
   }
-  &__p {
+  &__format-p {
     padding-bottom: 30px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -73,17 +76,17 @@
     width: calc(100% / 6);
     @media screen and (max-width: $bp-mobile) {
       display: flex;
-      align-items: center; /* Вирівнює по вертикалі */
-      gap: 10px; /* Додає відступ між числом і текстом */
+      align-items: center;
+      gap: 10px;
       width: 100%;
       margin-bottom: 20px;
       border-top: none;
       border-width: 0;
       p {
-        margin: 0; /* Видаляємо зайві відступи */
-        line-height: 1; /* Фіксуємо висоту тексту */
         display: flex;
         align-items: center;
+        margin: 0;
+        line-height: 1;
       }
     }
   }
@@ -94,81 +97,8 @@
     @media screen and (max-width: $bp-mobile) {
       margin-top: 0;
       margin-left: 0;
-      width: 35px; /* Щоб розмір був однаковий */
+      width: 35px;
       height: 35px;
     }
   }
 }
-/*.devservices-main {
-  display: flex;
-  justify-content: space-between;
-}
-.devservices-greycolumn {
-  background-color: var(--color-accent);
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
-  display: flex;
-  flex-basis: 70%;
-  gap: 30px;
-  padding: 40px 40px;
-  position: relative;
-  z-index: 12;
-}
-.devservices-blackcolumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  background-color: var(--color-primery-dark);
-  color: var(--color-primery-light);
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
-  margin-right: -60px;
-  padding: 40px 40px 40px 20px;
-  position: relative;
-  z-index: 2;
-}
-.devservices-list p {
-  padding-top: 50px;
-  flex-basis: 80%;
-}
-
-.psevdo-button {
-  background-color: transparent;
-  color: var(--color-primery-dark);
-  padding-left: 5px;
-  margin-left: -250px;
-}
-.psevdo-box {
-  display: flex;
-  background-color: var(--color-accent-peach);
-  border-width: 0;
-  border-radius: 10px;
-  justify-content: space-between;
-  white-space: nowrap;
-  text-align: start;
-  align-items: center;
-  padding: 10px 10px;
-  gap: 40px;
-}
-.devservices-infobox {
-  display: flex;
-  flex-basis: 50%;
-}
-/*.devservices-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.devservices-text {
-  color: var(--color-primery-light);
-}
-.litext-box {
-  display: flex;
-}
-
-.li-text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}*/

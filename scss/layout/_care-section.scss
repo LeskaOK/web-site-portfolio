@@ -10,9 +10,12 @@
     gap: 40px 30px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    @media screen and (max-width: $bp-tablet) {
+      gap: 10px;
+    }
     @media screen and (max-width: $bp-mobile) {
       flex-direction: column;
-      gap: 10px;
+      gap: 20px;
     }
   }
   &__item {
@@ -23,25 +26,38 @@
     box-shadow: 0 0 5px var(--color-gray-transporant);
     padding: 30px 30px 20px 10px;
     margin: 0 auto 0;
+    @media screen and (max-width: $bp-tablet) {
+      padding: 20px;
+    }
     @media screen and (max-width: $bp-mobile) {
       flex-basis: 100%;
     }
   }
   &__article-box {
     display: flex;
-    margin-bottom: 30px;
-    @media screen and (max-width: $bp-mobile) {
+    flex-direction: column;
+    margin-bottom: 20px;
+    @media screen and (max-width: $bp-tablet) {
       margin-bottom: 0px;
     }
   }
   &__text {
     padding-top: 20px;
+    h4 {
+      text-align: center;
+    }
   }
 
   &__picture {
-    display: flex;
-    flex-basis: 80%;
+    /*display: flex;
+    flex-basis: 80%;*/
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 0;
 
     &[data-type='one'] {
       background-image: url(../images/security.svg);
