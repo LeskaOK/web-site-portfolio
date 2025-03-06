@@ -10,12 +10,7 @@
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 12px;
-
     padding-right: 64px;
-    @media screen and (max-width: $bp-mobile) {
-      margin-bottom: 0;
-      padding-top: 18px;
-    }
   }
 
   &__nav {
