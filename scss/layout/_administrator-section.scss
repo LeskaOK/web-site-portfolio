@@ -20,6 +20,10 @@
   }
   &__arrow {
     transform: scaleX(1.7) translate(-20px, 30px);
+    @media screen and (max-width: 1180px) {
+      flex-basis: auto;
+      clip-path: inset(0 0 0 15%);
+    }
     @media screen and (max-width: $bp-tablet) {
       display: none;
     }

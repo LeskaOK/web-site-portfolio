@@ -1,6 +1,6 @@
 .section {
   padding: 48px 0;
-  @media screen and (max-width: $bp-mobile) {
+  @media screen and (max-width: $bp-tablet) {
     padding: 16px 0;
   }
 }

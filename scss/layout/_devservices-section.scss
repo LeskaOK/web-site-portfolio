@@ -4,6 +4,10 @@
     var(--color-peach-light) 2%,
     var(--color-primery-light) 31%
   );
+  padding-top: 0;
+  @media screen and (max-width: $bp-mobile) {
+    padding: 36px 0;
+  }
 
   &__title {
     display: flex;
@@ -52,11 +56,11 @@
     flex-direction: column;
   }
   &__format-p {
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
     @media screen and (max-width: $bp-mobile) {
       margin-bottom: 0;
+      font-size: 20px;
     }
   }
   &__chema {
