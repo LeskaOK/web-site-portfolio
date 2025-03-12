@@ -1,10 +1,7 @@
 .infobox-title {
   color: var(--color-primery-dark);
   text-align: center;
-  margin: 0 auto 8px;
-  @media screen and (max-width: $bp-mobile) {
-    margin-bottom: 16px;
-  }
+  margin: 0 auto 16px;
 }
 .infobox-title.p {
   font-size: 16px;

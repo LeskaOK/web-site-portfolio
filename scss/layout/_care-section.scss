@@ -9,13 +9,13 @@
     display: flex;
     gap: 36px 28px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     @media screen and (max-width: $bp-tablet) {
       gap: 8px;
     }
     @media screen and (max-width: $bp-mobile) {
       flex-direction: column;
-      gap: 18px;
+      gap: 16px;
     }
   }
   &__item {
@@ -24,10 +24,10 @@
     background-color: var(--color-primery-light);
     border-radius: 40px;
     box-shadow: 0 0 5px var(--color-gray-transporant);
-    padding: 24px 24px 8px 24px;
+    padding: 8px 24px;
     margin: 0 auto 0;
     @media screen and (max-width: $bp-tablet) {
-      padding: 18px;
+      padding: 16px;
     }
     @media screen and (max-width: $bp-mobile) {
       flex-basis: 100%;
@@ -36,21 +36,19 @@
   &__article-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
+    margin-bottom: 0;
     @media screen and (max-width: $bp-tablet) {
       margin-bottom: 0px;
     }
   }
   &__text {
-    padding-top: 16px;
+    padding-top: 8px;
     @media screen and (max-width: $bp-mobile) {
       padding-top: 8px;
     }
     h4 {
       text-align: center;
-      @media screen and (max-width: $bp-mobile) {
-        margin-bottom: 8px;
-      }
+      margin-bottom: 8px;
     }
   }
 

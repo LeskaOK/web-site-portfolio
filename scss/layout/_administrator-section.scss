@@ -6,8 +6,8 @@
 
   &__admin-section {
     display: flex;
-    gap: 40px;
-    padding: 40px 20px 75px 20px;
+    gap: 36px;
+    padding: 36px 24px 72px 22px;
     @media screen and (max-width: $bp-mobile) {
       flex-wrap: wrap;
     }
@@ -38,7 +38,7 @@
       var(--color-primery-light) 0%,
       var(--color-accent) 89%
     );
-    padding: 20px;
+    padding: 16px;
     list-style-position: inside;
     align-items: center;
     justify-content: center;
@@ -46,9 +46,5 @@
 
   &__ul {
     list-style-type: disc;
-
-    /* &--li {
-      line-height: 2.5;
-    }*/
   }
 }
